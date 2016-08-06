@@ -1,0 +1,5 @@
+# compile commands copy from PAML packages
+# MAC or Linux
+cc -o codeml.exe -O3 codeml.c tools.c -lm
+cc -o chi2.exe -O3 chi2.c -lm
+
