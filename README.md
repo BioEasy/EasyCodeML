@@ -12,6 +12,11 @@ Gao F and Chen J, 2016. EasyCodeML: an interactive visual tool for CodeML analys
 
 
 -----------------------------------------------------------------------------
+0. DOWNLOAD
+-----------------------------------------------------------------------------
+[Click to download The LATEST verision of EasyCodeML](https://github.com/BioEasy/EasyCodeML/releases/download/1.0/EasyCodeML_v1.0.rar)
+
+-----------------------------------------------------------------------------
 1. INTRODUCTION
 -----------------------------------------------------------------------------
 EasyCodeML is an interactive visual tool for CodeML analysis. It provides two running modes, one for beginners (the preset mode, nested codon models with predefined parameters) and the other, for experienced users (the custom mode, independent codon models with user-defined parameters), respectively.
