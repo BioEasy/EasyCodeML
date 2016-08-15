@@ -29,10 +29,10 @@ EasyCodeML requires a Java runtime environment (JRE). Before running this progra
 -----------------------------------------------------------------------------
 3.	DATA PREPARATION
 -----------------------------------------------------------------------------
-3.1 Sequence File
+### 3.1 Sequence File  
 EasyCodeML fully supports PAML format (i.e., examples/example.nuc, Li et al, 2016), so PAML file does not require any modification. .
 
-3.2 Tree File
+### 3.2 Tree File  
 Tree file must be in Newick format (i.e., examples/example.trees, Li et al, 2016). Note that taxon names with illegal characters (such as spaces, semicolons) are not allowed and the pairs of parentheses must be properly nested.
 
 -----------------------------------------------------------------------------
