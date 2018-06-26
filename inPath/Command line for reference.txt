@@ -1,0 +1,5 @@
+Command line for reference:
+
+java -cp EasyCodeML.jar SeqFormatConvert.seqFactory.SeqConverter -h
+
+java -cp EasyCodeML.jar SeqFormatConvert.seqFactory.SeqConverter -i inPath -o outPath -oF PAML

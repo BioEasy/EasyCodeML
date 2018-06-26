@@ -1,6 +1,6 @@
-      seqfile = ArMV.nuc
-     treefile = ArMV.trees
-      outfile = mlc
+      seqfile = M1a.nuc
+     treefile = M1a.trees
+      outfile = M1a_mlc
 
         noisy = 9   * 0,1,2,3,9: how much rubbish on the screen
       verbose = 0   * 1: detailed output, 0: concise output
