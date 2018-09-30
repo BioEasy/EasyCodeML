@@ -2,7 +2,7 @@
 EasyCodeML 1.1 Readme -	Sep/30/2018
 
 Fangluan Gao (raindy@fafu.edu.cn)
-Chengjie Chen (ccj0410@gmail.cn)
+Chengjie Chen (ccj0410@gmail.com)
 
 Copyright (C) 2018 Gao F. and Chen C.
 
@@ -13,7 +13,7 @@ Gao F and Chen J, 2018. EasyCodeML: a visual tool for analysis of selection usin
 -----------------------------------------------------------------------------
 1. INTRODUCTION
 -----------------------------------------------------------------------------
-EasyCodeML is a user-friendly interface that allows the set-up of complex selection analyses in CodeML (https://github.com/BioEasy/EasyCodeML). In addition to a custom mode in which all parameters can be adjusted to meet the requirements of the user, EasyCodeML provides a preset mode that allows the construction of a pipeline from input to output. EasyCodeML also allows visualized, interactive tree labeling, which greatly simplifies the use of the branch, branch-site, and clade models of selection.
+EasyCodeML is a user-friendly interface that allows the set-up of complex selection analyses in CodeML. In addition to a custom mode in which all parameters can be adjusted to meet the requirements of the user, EasyCodeML provides a preset mode that allows the construction of a pipeline from input to output. EasyCodeML also allows visualized, interactive tree labeling, which greatly simplifies the use of the branch, branch-site, and clade models of selection.
 
 -----------------------------------------------------------------------------
 2.	SYSTEM REQUIREMENT
