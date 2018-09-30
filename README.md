@@ -31,9 +31,10 @@ EasyCoodeML required inputs for analysing selection are the aligned sequences in
 4. How to use EasyCodeML
 -----------------------------------------------------------------------------
 4.1 Worked example for the preset running mode.
-https://github.com/BioEasy/EasyCodeML/blob/master/Worked%20example%201
+https://github.com/BioEasy/EasyCodeML/blob/master/Worked%20example%201.pdf
 
 4.2 Worked example for the custom running mode.
+https://github.com/BioEasy/EasyCodeML/blob/master/WORKED%20EXAMPLE%202.pdf
 
 -----------------------------------------------------------------------------
 5.	ACKNOWLEDGMENTS
