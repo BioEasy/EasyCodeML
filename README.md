@@ -1,29 +1,19 @@
 -----------------------------------------------------------------------------
-EasyCodeML 1.0 Readme -	Aug/15/2016
+EasyCodeML 1.1 Readme -	Sep/30/2018
 
 Fangluan Gao (raindy@fafu.edu.cn)
-Chengjie Chen (ChengjieChen@stu.scau.edu.cn)
+Chengjie Chen (ccj0410@gmail.cn)
 
-Copyright (C) 2016 Gao F. and Chen C.
+Copyright (C) 2018 Gao F. and Chen C.
 
 Citation:
 
-Gao F and Chen J, 2016. EasyCodeML: an interactive visual tool for CodeML analysis.
-
-
------------------------------------------------------------------------------
-0. DOWNLOAD
------------------------------------------------------------------------------
-[Click to download The LATEST verision of EasyCodeML](https://github.com/BioEasy/EasyCodeML/releases/download/1.0/EasyCodeML_v1.0.rar)
+Gao F and Chen J, 2018. EasyCodeML: a visual tool for analysis of selection using CodeML, Available from https://github.com/BioEasy/EasyCodeML
 
 -----------------------------------------------------------------------------
 1. INTRODUCTION
 -----------------------------------------------------------------------------
-EasyCodeML is an interactive visual tool for CodeML analysis. It provides two running modes, one for beginners (the preset mode, nested codon models with predefined parameters) and the other, for experienced users (the custom mode, independent codon models with user-defined parameters), respectively.
-
-In the preset mode, evolutionary analysis can be carried out with just one click because all key parameters of the nested models, including the branch model (M0 vs. two ratio Model 2), the branch-site model (ModelA null vs. Model A), the site model (M0 vs.M3, M1a vs. M2a and M7 vs. M8) and the clade model (M2a_rel vs. CmC), were built in and CodeML analysis from data input to results output was pipelined.
-
-Many experienced users need to create or modify the control files when using CodeML to meet different requirements. Therefore, the custom mode is implemented, in which all parameters for any single-model can be modified.
+EasyCodeML is a user-friendly interface that allows the set-up of complex selection analyses in CodeML (https://github.com/BioEasy/EasyCodeML). In addition to a custom mode in which all parameters can be adjusted to meet the requirements of the user, EasyCodeML provides a preset mode that allows the construction of a pipeline from input to output. EasyCodeML also allows visualized, interactive tree labeling, which greatly simplifies the use of the branch, branch-site, and clade models of selection.
 
 -----------------------------------------------------------------------------
 2.	SYSTEM REQUIREMENT
@@ -34,16 +24,12 @@ EasyCodeML requires a Java runtime environment (JRE). Before running this progra
 -----------------------------------------------------------------------------
 3.	DATA PREPARATION
 -----------------------------------------------------------------------------
-### 3.1 Sequence File  
-EasyCodeML fully supports PAML format (i.e., examples/example.nuc, Li et al, 2016), so PAML file does not require any modification. .
-
-### 3.2 Tree File  
-Tree file must be in Newick format (i.e., examples/example.trees, Li et al, 2016). Note that taxon names with illegal characters (such as spaces, semicolons) are not allowed and the pairs of parentheses must be properly nested.
+EasyCoodeML required inputs for analysing selection are the aligned sequences in PAML format and a tree file in Newick format. 
 
 -----------------------------------------------------------------------------
 4.	ACKNOWLEDGMENTS
 -----------------------------------------------------------------------------
-We thank Mrs. Zhenxi Chen (Tropical crops genetic resources institute, CATAS), Han Li (Southwest University), Lin Zhang (Nanjing Normal University) for constructive feedback in the development of the program.
+We thank Mr Zhenxi Chen (Tropical Crops Genetic Resources Institute, Chinese Academy of Tropical Agricultural Sciences), Dr Han Li (Southwest University), and Dr Lin Zhang (Nanjing Normal University) for constructive feedback on EasyCodeML. We also thank Dr Qing Chen (Sichuan Agricultural University) for his helpful comments on the manuscript.
 
 -----------------------------------------------------------------------------
 5.	REPORTING BUGS AND FEEDBACK
