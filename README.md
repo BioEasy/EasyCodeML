@@ -1,48 +1,67 @@
------------------------------------------------------------------------------
-EasyCodeML 1.1 Readme -	Sep/30/2018
+**1.**      **Introduction**
 
-Fangluan Gao (raindy@fafu.edu.cn)
-Chengjie Chen (ccj0410@gmail.com)
+EasyCodeML is an interactive visual tool for detecting selection in molecular evolutionary analysis. It implements the major codon-based models of CodeML in a simple and user-friendly interface.
 
-Copyright (C) 2018 Gao F. and Chen C.
+EasyCodeML is written in Java. Precompiled versions are available for Microsoft Windows, Mac OS X, and Linux. We cannot guarantee that EasyCodeML will work well on other operating systems.
 
-Citation:
+**2.**      **System requirements**
 
-Gao F and Chen J, 2018. EasyCodeML: a visual tool for analysis of selection using CodeML, Available from https://github.com/BioEasy/EasyCodeML
+Before running EasyCodeML, please ensure that your computer has a recent version of the Java Runtime Environment (JRE 1.6 or higher). The latest version of Java can be downloaded from http://www.java.com.
 
------------------------------------------------------------------------------
-1. INTRODUCTION
------------------------------------------------------------------------------
-EasyCodeML is a user-friendly interface that allows the set-up of complex selection analyses in CodeML. In addition to a custom mode in which all parameters can be adjusted to meet the requirements of the user, EasyCodeML provides a preset mode that allows the construction of a pipeline from input to output. EasyCodeML also allows visualized, interactive tree labeling, which greatly simplifies the use of the branch, branch-site, and clade models of selection.
+To export a tree as Newick format you will also need a recent version of FigTree (http://tree.bio.ed.ac.uk/software/figtree/).
 
------------------------------------------------------------------------------
-2.	SYSTEM REQUIREMENT
------------------------------------------------------------------------------
+**3.**      **Data preparation**
 
-EasyCodeML requires a Java runtime environment (JRE). Before running this program, please make sure the correct installation of JRE 1.6 (or higher). 
+**3.1**  **Sequence alignment in PAML format**
 
------------------------------------------------------------------------------
-3.	DATA PREPARATION
------------------------------------------------------------------------------
-EasyCoodeML required inputs for analysing selection are the aligned sequences in PAML format and a tree file in Newick format.
+CodeML requires a sequence alignment in PAML format. EasyCodeML includes a utility called Seqformat Convertor, which can automatically convert Clustal, FASTA, MEGA, Nexus, and Phylip formats into PAML format.
 
+ 
 
------------------------------------------------------------------------------
-4. How to use EasyCodeML
------------------------------------------------------------------------------
-4.1 Worked example for the preset running mode.
-https://github.com/BioEasy/EasyCodeML/blob/master/WORKED%20EXAMPLE%201.pdf
+**3.2**  **Tree file** **in Newick format**
 
-4.2 Worked example for the custom running mode.
-https://github.com/BioEasy/EasyCodeML/blob/master/WORKED%20EXAMPLE%202.pdf
+The tree file must be in plain Newick format (e.g., Examples/Example1.tree). The tree can include branch lengths and each node can have a single label. Taxon names should not have illegal characters (such as spaces and semicolons). 
 
------------------------------------------------------------------------------
-5.	ACKNOWLEDGMENTS
------------------------------------------------------------------------------
-We thank Mr Zhenxi Chen (Tropical Crops Genetic Resources Institute, Chinese Academy of Tropical Agricultural Sciences), Dr Han Li (Southwest University), Dr Lin Zhang (Nanjing Normal University) and Dr Qing Chen (Sichuan Agricultural University)for constructive feedback on EasyCodeML. 
+ 
 
------------------------------------------------------------------------------
-6.	REPORTING BUGS AND FEEDBACK
------------------------------------------------------------------------------
-If you encounter any problems with EasyCodeML, please let us know. We will be sure to promptly track down and fix any bugs that are reported. If it is possible, also attach the data which caused the problems.
-EasyCodeML is an on-going project. For any suggestions of further features that you would like to see included in the next version, please let me know as well. 
+**3.3**  **Labelling branches in the phylogenetic tree**
+
+Tree labelling is necessary when using the branch-related models. To do this, press the ‘Label’ button in EasyCodeML, select the branch or clade to be treated as the foreground lineage, and press “done”.
+
+​       In EasyCodeML, the symbols ‘#’ and ‘$’ are used for the branch or branch-site models and for the clade model, respectively. For the clade model, if we have multiple clades to be labelled (no more than 5), press the buttons 1st, 2nd, 3rd, 4th, and 5th to label each clade in turn.  
+
+**4.**      **Running the program** 
+
+EasyCodeML provides two different running modes. The first is the preset mode, in which all key parameters of the nested models are built-in and which has pipelines for the selection analyses. The second running mode is the custom mode for experienced users. As with pamlX, the parameters for any codon-based model can be modified to meet different requirements.
+
+The Quick Guide provides tutorials that illustrate the use of the two running modes. 
+
+ 
+
+**5.**      **Tools menu in EasyCodeML**
+
+| **Menu** | **Item**                | **Description**                                   |
+| -------- | :---------------------- | ------------------------------------------------- |
+| File     |                         |                                                   |
+|          | Load Aligned   Sequence | Load a codon-based sequence   alignment           |
+|          | Load Tree File          | Load a tree file in   Newick format               |
+|          | Exit                    | Quit the program                                  |
+| Tools    |                         |                                                   |
+|          | LRTs   Calculator       | Retrieve *p*-values for LRTs                      |
+|          | Control   File Editor   | Edit a CodeML   control file                      |
+|          | Seqformat   Convertor   | Convert sequence alignment   to PAML format       |
+| Options  |                         |                                                   |
+|          | Configure Tree   Label  | Modify tree layout   to fit in the display window |
+| Help     |                         |                                                   |
+|          | User   guide            | Quick Guide for new   users                       |
+|          | About                   | About EasyCodeML                                  |
+
+ 
+
+**6.**      **Reporting bugs and feedback**
+
+We welcome bug reports, feedback, and suggestions. For support please contact F. Gao (raindy[at]fafu.edu.cn) or C. Chen (ccj0410[at] gmail.com).
+
+**7.**      **License**
+
+Copyright 2018 by the EasyCodeML authors. EasyCodeML is a free software and you are welcome to redistribute it under certain conditions. It is released under GNU Lesser General Public License, Version 3. See http://www.gnu.org/licenses/lgpl.html. No guarantee of the functionality of this software, or of the accuracy of results obtained, is expressed or implied. Please inspect any results carefully. 
