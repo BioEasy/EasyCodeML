@@ -71,8 +71,9 @@ The Quick Guide provides tutorials that illustrate the use of the two running mo
 | Options  |                         |                                                   |
 |          | Configure Tree   Label  | Modify tree layout   to fit in the display window |
 | Help     |                         |                                                   |
-|          | User   guide            | Quick Guide for new   users                       |
-|          | About                   | About EasyCodeML                                  |
+|          | About                   | About EasyCodeML                                  |              
+|          | User   guide            | Quick Guide for new   users                       |     
+|          | Check for updates       | Update to the newest version                      |
 
  
 
