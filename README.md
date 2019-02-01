@@ -16,7 +16,25 @@ To export a tree as Newick format you will also need a recent version of FigTree
 
 CodeML requires a sequence alignment in PAML format. EasyCodeML includes a utility called Seqformat Convertor, which can automatically convert Clustal, FASTA, MEGA, Nexus, and Phylip formats into PAML format.
 
- 
+To convert sequence format in batch mode, type the following commands at the command prompt (CMD in windows or Terminal in Mac or Linux).
+
+Parameter notes：
+
+The parameters ‘-i’ and ‘-oF’ MUST be supplied and the parameters ‘-o’ and ‘-iF’ are optional.
+
+java -cp EasyCodeML.jar SeqFormatConvert.seqFactory.SeqConverter -i -oF
+
+-i		the directory to be read in
+
+-o		the output directory
+
+-iF		input sequence format
+
+-oF		output sequence format [fasta (default)|MEGA|nexus|PAMLphylip]
+
+Example:  
+
+java -cp EasyCodeML.jar SeqFormatConvert.seqFactory.SeqConverter -i /Users/user1/Desktop -oF nexus
 
 **3.2**  **Tree file** **in Newick format**
 
