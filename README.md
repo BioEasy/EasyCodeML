@@ -46,7 +46,7 @@ The tree file must be in plain Newick format (e.g., Examples/Example1.tree). The
 
 Tree labelling is necessary when using the branch-related models. To do this, press the ‘Label’ button in EasyCodeML, select the branch or clade to be treated as the foreground lineage, and press “done”.
 
-​       In EasyCodeML, the symbols ‘#’ and ‘$’ are used for the branch or branch-site models and for the clade model, respectively. For the clade model, if we have multiple clades to be labelled (no more than 5), press the buttons 1st, 2nd, 3rd, 4th, and 5th to label each clade in turn.  
+​       In EasyCodeML, the symbols ‘#’ and ‘$’ are used for the branch or branch-site models and for the clade model, respectively. For the branch and clade models, if we have multiple foregroud branches or clades to be labelled (no more than 5), press the buttons 1st, 2nd, 3rd, 4th, and 5th to label each foregroud branche or clade in turn.  
 
 **4.**      **Running the program** 
 
