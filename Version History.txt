@@ -16,6 +16,6 @@ New Features:
 
 	(2) Added an update check feature to EasyCodeML (‘Check for updates’ in the ‘Help’ menu);
 
-	(3) Added the M8-M8a comparision in the site models in the preset running mode;
+	(3) Added the M8-M8a comparison in the site models in the preset running mode;
 
 	(4) Added an option allowing users to decide whether or not to run CodeML in slient mode.
