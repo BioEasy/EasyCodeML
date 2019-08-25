@@ -1,11 +1,20 @@
-EasyCodeML v1.2
+EasyCodeML v1.21
 
 A visual tool for analysis of selection using CodeML
 
 Presented by F. Gao, C.J. Chen et al.
 
-Last updated: - 01-Feb-2019
+Last updated: 25-Aug-2019
 
+================================================================================
+
+Version 1.21 released 25-Aug-2019
+
+What's new in v1.21
+
+	(1) Automatically save the profiles to enable all parameters for CodeML analysis
+
+	(2) Add a citaion of EasyCodeML paper published in Ecoclogy and Evolution
 ================================================================================
 
 Version 1.2 released 01-Feb-2019
