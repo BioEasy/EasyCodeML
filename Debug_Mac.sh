@@ -1,1 +1,1 @@
-java -jar jModelTest.jar
+java -jar EasyCodeML.jar
