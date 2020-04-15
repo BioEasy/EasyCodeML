@@ -44,7 +44,7 @@ java -cp EasyCodeML.jar SeqFormatConvert.seqFactory.SeqConverter -i /Users/user1
 
 **4.2**  **Tree file** **in Newick format**
 
-The tree file must be in plain Newick format (e.g., Examples/Example1.tree). The tree can include branch lengths and each node can have a single label. Taxon names should not have illegal characters (such as spaces and semicolons). 
+The tree file must be in plain Newick format (e.g., Examples/Example1.tree). The tree can not include branch lengths or bootstrap values and each node can have a single label. Taxon names should not have illegal characters (such as spaces and semicolons). 
 
  
 
