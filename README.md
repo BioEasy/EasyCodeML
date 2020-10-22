@@ -2,7 +2,7 @@
 
 EasyCodeML is an interactive visual tool for detecting selection in molecular evolutionary analysis. It implements the major codon-based models of CodeML in a simple and user-friendly interface.
 
-EasyCodeML is written in Java. Precompiled versions are available for Microsoft Windows, Mac OS X, and Linux. We cannot guarantee that EasyCodeML will work well on other operating systems. The lastest version is 1.21.
+EasyCodeML is written in Java. Precompiled versions are available for Microsoft Windows, Mac OS X, and Linux. We cannot guarantee that EasyCodeML will work well on other operating systems. The lastest version is 1.31.
 
 **2.**      **Citing EasyCodeML**
 
