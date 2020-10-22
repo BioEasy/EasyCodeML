@@ -74,6 +74,7 @@ The Quick Guide provides tutorials that illustrate the use of the two running mo
 |          | LRTs   Calculator       | Retrieve *p*-values for LRTs                      |
 |          | Control   File Editor   | Edit a CodeML   control file                      |
 |          | Seqformat   Convertor   | Convert sequence alignment   to PAML format       |
+|          | Tree Cleaner            | Convert tree file to NEWICK format                |
 | Options  |                         |                                                   |
 |          | Configure Tree   Label  | Modify tree layout   to fit in the display window |
 | Help     |                         |                                                   |
