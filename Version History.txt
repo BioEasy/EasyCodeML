@@ -1,3 +1,11 @@
+Version 1.31 released 22-Oct-2020
+
+What's new in v1.31
+
+Add a Tree Cleaner in the Tools Menu to generate Tree file used for CodeML analysis
+
+================================================================================
+
 EasyCodeML v1.21
 
 A visual tool for analysis of selection using CodeML
