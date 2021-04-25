@@ -1,3 +1,10 @@
+Version 1.4 released 25-Apr-2021
+
+What's new in v1.4
+
+The option of 'icode' for genetic code selection available in the Preset Mode
+================================================================================
+
 Version 1.31 released 22-Oct-2020
 
 What's new in v1.31
