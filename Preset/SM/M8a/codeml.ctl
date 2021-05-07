@@ -42,7 +42,7 @@
         ncatG = 3  * # of categories in dG of NSsites models
 
         getSE = 0  * 0: don't want them, 1: want S.E.s of estimates
- RateAncestor = 1  * (0,1,2): rates (alpha>0) or ancestral states (1 or 2)
+ RateAncestor = 0  * (0,1,2): rates (alpha>0) or ancestral states (1 or 2)
 
    Small_Diff = .45e-6
     cleandata = 1  * remove sites with ambiguity data (1:yes, 0:no)?
