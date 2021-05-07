@@ -39,7 +39,7 @@
     fix_alpha = 1  * 0: estimate gamma shape parameter; 1: fix it at alpha
         alpha = 0. * initial or fixed alpha, 0:infinity (constant rate)
        Malpha = 0  * different alphas for genes
-        ncatG = 10  * # of categories in dG of NSsites models
+        ncatG = 3  * # of categories in dG of NSsites models
 
         getSE = 0  * 0: don't want them, 1: want S.E.s of estimates
  RateAncestor = 1  * (0,1,2): rates (alpha>0) or ancestral states (1 or 2)
