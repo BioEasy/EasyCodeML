@@ -90,4 +90,4 @@ We welcome bug reports, feedback, and suggestions. For support please contact F.
 
 **8.**      **License**
 
-Copyright 2018 by the EasyCodeML authors. EasyCodeML is a free software and you are welcome to redistribute it under certain conditions. It is released under GNU Lesser General Public License, Version 3. See http://www.gnu.org/licenses/lgpl.html. No guarantee of the functionality of this software, or of the accuracy of results obtained, is expressed or implied. Please inspect any results carefully. 
+Copyright 2018 by the EasyCodeML authors. EasyCodeML is a free software and you are welcome to redistribute it under certain conditions. No guarantee of the functionality of this software, or of the accuracy of results obtained, is expressed or implied. Please inspect any results carefully. 
