@@ -1,3 +1,9 @@
+Version 1.41 released 7-May-2023
+
+What's new in v1.41
+
+Fixed a bug for the option of 'Run LRTs' 
+================================================================================
 Version 1.4 released 25-Apr-2021
 
 What's new in v1.4
